@@ -7,8 +7,7 @@
 body{
 
     font-family: Arial, sans-serif;
-    background: #f4f4f4;
-    padding: 15px 150px;
+    background-color: #f4f4f4;
 
 }
 
@@ -16,28 +15,43 @@ header{
     background-color: #0073e6;
     padding: 1.5em;
     border-radius: 5px;
+    margin: 15px;
+    margin-top: 15px;
+
 }
 
 h1{
     color: #f4f4f4;
     text-align: center;
+    
+    
 }
 
 .main{
 
     background-color: #fff;
+    margin: 20px 200px;
 }
 
 .videocards{
     background: #f4f4f4;
     padding: 10px 20px;
     border-left: 5px solid #0077cc;
-    margin: 1px 0;
+    margin: 1px 30px;
     padding: 20px;
 }
 
-footer {
+.container {
+    margin: 20px 40px 0px 40px;
+    border-bottom: 2px solid #f4f4f4;
+}
 
+footer {
+    margin: 40px 10px;
+}
+
+p{
+    color:#666;
 }
 
 img {
@@ -52,4 +66,8 @@ img {
 
 .f{
     background-color: #f4f4f4;
+}
+
+.ms {
+    color: #f4f4f4, #333, #fff, #0073e6, #ddd, #222, #666, #fafafa, #f9f9f9;
 }
