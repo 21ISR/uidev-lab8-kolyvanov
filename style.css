@@ -13,9 +13,14 @@ header{
     background-color: #0073e6;
     padding: 1.5em;
     border-radius: 5px;
-    margin: 15px;
-    margin-top: 15px;
+    margin: 15px 15px;
 
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 2px solid #f4f4f4;
+    padding-top: 5px;
 }
 
 h1{
@@ -44,7 +49,7 @@ div{
     margin: 15px auto;
 }
 
-.videocards{
+.history{
     display: flex;
     flex-direction: column;
     background: #f4f4f4;
@@ -53,18 +58,12 @@ div{
 }
 
 .container {
-    margin-top: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 15px;
 }
 
-footer {
-    margin-top: 15px;
-    border-top: 2px solid #f4f4f4;
-    padding-top: 5px;
+.section{
+    margin: 30px auto;
 }
-
-
 
 img {
     width: 100%;
@@ -83,14 +82,10 @@ img {
     gap: 15px;
 }
 
-.f{
+.electronics{
     background-color: #f4f4f4;
     text-align: center;
     padding: 20px;
-}
-
-.ms {
-    color: #f4f4f4, #333, #fff, #0073e6, #ddd, #222, #666, #fafafa, #f9f9f9;
 }
 
 .section_info{
